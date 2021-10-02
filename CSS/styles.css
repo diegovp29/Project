@@ -48,7 +48,9 @@ body{
 .login:hover, .navbutton:hover{
     background-color: #34495e;
 }
-
+.navbutton:hover{
+    padding: 34px 30px;
+}
 .body{
     padding-left: 5%;
 }
