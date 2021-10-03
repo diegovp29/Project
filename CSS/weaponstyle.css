@@ -26,20 +26,43 @@ body{
 h1{
     text-align: center;
 }
-p{
+.description{
     text-align: center;
 }
 h3{
     margin: 5% 0% 0% 8%;
+    text-decoration: underline;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
 }
 .table{
-    margin: 3% 0% 0% 8%;
-}
-.imgtable{
-    float: left;
+    height: max-content;
+    display: flex;
+    padding: 2% 0;
+    border-bottom: 3px solid #2ecc71;
 }
 h5{
     display: inline-block;
     margin: 0px 30px;
     font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.tittleweapon{
+    text-decoration: underline;
+}
+.weapondesc p{
+    position: relative;
+    left: 30px;
+}
+ul{
+    position: relative;
+    left: 60px;
+}
+img{
+    margin-left: 50px;
+}
+#lastable{
+    border: none;
 }
