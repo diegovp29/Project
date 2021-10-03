@@ -69,3 +69,26 @@ body{
 .body{
     padding-left: 5%;
 }
+#weapons{
+    text-align: center;
+}
+.weapons{
+    background-color: #34495e;
+    border: 2px solid #2ecc71;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    left: 9.5%;
+    text-align: center;
+    padding: 14px 10px;
+    margin: 3%;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.weapons:hover{
+    background-color: #2ecc71;
+}
