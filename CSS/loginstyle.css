@@ -79,4 +79,7 @@ body{
     color: white;
     position: relative;
     top: 10px;
+}
+.box a:hover{
+    text-decoration: underline;
 } 
