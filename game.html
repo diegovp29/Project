@@ -12,6 +12,7 @@
                 <input type="button" class="navbutton" onclick="location.href='index.html'" value="Home">
                 <input type="button" class="navbutton" id="nfbutton" onclick="location.href='game.html'" value="Game">
                 <input type="button" class="navbutton" id="nfbutton" onclick="location.href='download.html'" value="Download">
+                <input type="button" class="navbutton" id="nfbutton" onclick="location.href='wiki.html'" value="Guides">
                 <input type="button" class="navbutton" id="nfbutton" onclick="location.href='aboutus.html'" value="About us">
                 <input type="button" class="register" onclick="location.href='register.html'" value="Sign up">
                 <input type="button" class="login" onclick="location.href='login.html'" value="Sign in">
@@ -21,13 +22,71 @@
     <div class="body">
         <h1 class="tittle-body">About the game</h1>
     </div>
-    <h2 id="title">Equipment tipes</h2>
-    <div class="gamecdiv">
-        <input type="button" class="gamec" onclick="location.href='weapon.html'" value="Weapons">
-        <input type="button" class="gamec" onclick="location.href='armour.html'" value="Armours">
-        <input type="button" class="gamec" onclick="location.href='none'" value="Placeholder">
-        <input type="button" class="gamec" onclick="location.href='none'" value="Placeholder">
-        <input type="button" class="gamec" onclick="location.href='none'" value="Placeholder">
+    <h2 id="title">Weapons</h2>
+    <div class="slidershow middle">
+        <div class="slides">
+            <input type="radio" name="w" id="w1" checked>
+            <input type="radio" name="w" id="w2">
+            <input type="radio" name="w" id="w3">
+            <input type="radio" name="w" id="w4">
+            <input type="radio" name="w" id="w5">
+            <div class="slide s1">
+                <img src="images/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/5.jpg" alt="">
+            </div>
+            <div class="navigation">
+                <label for="w1" class="bar"></label>
+                <label for="w2" class="bar"></label>
+                <label for="w3" class="bar"></label>
+                <label for="w4" class="bar"></label>
+                <label for="w5" class="bar"></label>
+            </div>
+        </div>
+    </div>
+    <div id="title">
+        <h2 id="title">Equipment types</h2>
+    </div>
+    <div class="slidershow middle">
+        <div class="slides">
+            <input type="radio" name="e" id="e1" checked>
+            <input type="radio" name="e" id="e2">
+            <input type="radio" name="e" id="e3">
+            <input type="radio" name="e" id="e4">
+            <input type="radio" name="e" id="e5">
+            <div class="slide s2">
+                <a href="#"><img src="images/1.jpg" alt=""></a>
+            </div>
+            <div class="slide">
+                <img src="images/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="images/5.jpg" alt="">
+            </div>
+            <div class="navigation">
+                <label for="e1" class="bar"></label>
+                <label for="e2" class="bar"></label>
+                <label for="e3" class="bar"></label>
+                <label for="e4" class="bar"></label>
+                <label for="e5" class="bar"></label>
+            </div>
+        </div>
     </div>
 </body>
 </html>
