@@ -80,7 +80,7 @@ header{
 }
 .gamecdiv{
     display: flex;
-
+    justify-content: center;
 }
 .gamec{
     background-color: #34495e;
