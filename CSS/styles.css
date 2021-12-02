@@ -72,7 +72,8 @@ header{
     padding: 20px 30px;
 }
 .body{
-    padding: 5%, 0%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 #title{
     text-align: center;
