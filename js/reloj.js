@@ -6,12 +6,6 @@ function muestraReloj() {
     var horas = fechaHora.getHours();
     var minutos = fechaHora.getMinutes();
     var segundos = fechaHora.getSeconds();
-    var sufijo = ' am';
-    if (horas >= 12) {
-        if (horas > 12)
-            horas = horas - 12;
-        sufijo = ' pm';
-    }
     if (horas < 10) {
         horas = '0' + horas;
     }
@@ -21,5 +15,5 @@ function muestraReloj() {
     if (segundos < 10) {
         segundos = '0' + segundos;
     }
-    document.getElementById("reloj").firstChild.nodeValue = horas + ':' + minutos + ':' + segundos + sufijo;
+    document.getElementById("reloj").firstChild.nodeValue = horas + ':' + minutos + ':' + segundos;
 }
