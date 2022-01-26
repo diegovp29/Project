@@ -15,6 +15,10 @@ header{
     font-size: 25px;
     width: 100%;
 }
+#reloj{
+    position: absolute;
+    margin-left: 95%
+}
 .navbutton{
     text-align: center;
     padding: 20px 15px;
