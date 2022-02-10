@@ -15,6 +15,9 @@ header{
     font-size: 25px;
     width: 100%;
 }
+.preloj{
+    margin-left: 95%;
+}
 #reloj{
     display inline-block;
     margin-left: 95%;
