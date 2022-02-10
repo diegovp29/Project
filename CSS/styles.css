@@ -16,7 +16,8 @@ header{
     width: 100%;
 }
 #reloj{
-    margin-left: 95%
+    display inline-block;
+    margin-left: 95%;
 }
 .navbutton{
     text-align: center;
